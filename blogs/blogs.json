@@ -1,0 +1,13 @@
+{
+  "repo": "avocode",
+  "feeds": [
+    {
+      "source": "https://blog.avocode.com",
+      "feed_url": "https://blog.avocode.com/feed",
+      "saved": 0,
+      "title": "Avocode Blog"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-13T00:00:00Z"
+}

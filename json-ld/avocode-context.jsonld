@@ -1,0 +1,194 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "avocode": "https://avocode.com/schemas/",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+
+    "Project": {
+      "@id": "avocode:Project",
+      "@context": {
+        "projectId": "avocode:projectId",
+        "name": "schema:name",
+        "description": "schema:description",
+        "createdAt": {
+          "@id": "dcterms:created",
+          "@type": "xsd:dateTime"
+        },
+        "updatedAt": {
+          "@id": "dcterms:modified",
+          "@type": "xsd:dateTime"
+        }
+      }
+    },
+
+    "Screen": {
+      "@id": "avocode:Screen",
+      "@context": {
+        "screenId": "avocode:screenId",
+        "name": "schema:name",
+        "projectId": "avocode:projectId",
+        "width": {
+          "@id": "schema:width",
+          "@type": "xsd:integer"
+        },
+        "height": {
+          "@id": "schema:height",
+          "@type": "xsd:integer"
+        },
+        "thumbnailUrl": {
+          "@id": "schema:thumbnail",
+          "@type": "@id"
+        },
+        "createdAt": {
+          "@id": "dcterms:created",
+          "@type": "xsd:dateTime"
+        },
+        "updatedAt": {
+          "@id": "dcterms:modified",
+          "@type": "xsd:dateTime"
+        }
+      }
+    },
+
+    "Annotation": {
+      "@id": "avocode:Annotation",
+      "@context": {
+        "annotationId": "avocode:annotationId",
+        "screenId": "avocode:screenId",
+        "text": "schema:text",
+        "author": "schema:author",
+        "x": {
+          "@id": "avocode:positionX",
+          "@type": "xsd:decimal"
+        },
+        "y": {
+          "@id": "avocode:positionY",
+          "@type": "xsd:decimal"
+        },
+        "resolved": {
+          "@id": "avocode:resolved",
+          "@type": "xsd:boolean"
+        },
+        "createdAt": {
+          "@id": "dcterms:created",
+          "@type": "xsd:dateTime"
+        }
+      }
+    },
+
+    "DesignFile": {
+      "@id": "avocode:DesignFile",
+      "@context": {
+        "fileId": "avocode:fileId",
+        "name": "schema:name",
+        "projectId": "avocode:projectId",
+        "fileType": "avocode:fileType",
+        "sourceApp": "avocode:sourceApp",
+        "uploadedAt": {
+          "@id": "dcterms:date",
+          "@type": "xsd:dateTime"
+        }
+      }
+    },
+
+    "Layer": {
+      "@id": "avocode:Layer",
+      "@context": {
+        "layerId": "avocode:layerId",
+        "name": "schema:name",
+        "screenId": "avocode:screenId",
+        "layerType": "avocode:layerType",
+        "css": "avocode:css",
+        "svg": "avocode:svg",
+        "x": {
+          "@id": "avocode:positionX",
+          "@type": "xsd:decimal"
+        },
+        "y": {
+          "@id": "avocode:positionY",
+          "@type": "xsd:decimal"
+        },
+        "width": {
+          "@id": "schema:width",
+          "@type": "xsd:decimal"
+        },
+        "height": {
+          "@id": "schema:height",
+          "@type": "xsd:decimal"
+        }
+      }
+    },
+
+    "Asset": {
+      "@id": "avocode:Asset",
+      "@context": {
+        "assetId": "avocode:assetId",
+        "name": "schema:name",
+        "screenId": "avocode:screenId",
+        "format": "avocode:format",
+        "scale": "avocode:scale",
+        "downloadUrl": {
+          "@id": "schema:contentUrl",
+          "@type": "@id"
+        }
+      }
+    },
+
+    "Color": {
+      "@id": "avocode:Color",
+      "@context": {
+        "colorId": "avocode:colorId",
+        "name": "schema:name",
+        "hex": "avocode:hex",
+        "red": {
+          "@id": "avocode:red",
+          "@type": "xsd:integer"
+        },
+        "green": {
+          "@id": "avocode:green",
+          "@type": "xsd:integer"
+        },
+        "blue": {
+          "@id": "avocode:blue",
+          "@type": "xsd:integer"
+        },
+        "alpha": {
+          "@id": "avocode:alpha",
+          "@type": "xsd:decimal"
+        }
+      }
+    },
+
+    "Font": {
+      "@id": "avocode:Font",
+      "@context": {
+        "fontId": "avocode:fontId",
+        "family": "schema:name",
+        "weight": "avocode:fontWeight",
+        "style": "avocode:fontStyle",
+        "size": {
+          "@id": "avocode:fontSize",
+          "@type": "xsd:decimal"
+        }
+      }
+    },
+
+    "User": {
+      "@id": "avocode:User",
+      "@context": {
+        "userId": "avocode:userId",
+        "name": "schema:name",
+        "email": {
+          "@id": "schema:email",
+          "@type": "xsd:string"
+        },
+        "avatarUrl": {
+          "@id": "schema:image",
+          "@type": "@id"
+        }
+      }
+    }
+  }
+}
