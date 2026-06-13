@@ -1,0 +1,36 @@
+name: Avocode Plans and Pricing
+description: Avocode offered two pricing tiers for its design handoff platform before
+  it was sunset on October 1, 2023. The platform was acquired by Ceros in October
+  2021. Pricing below reflects the last known plans as of mid-2022.
+url: https://avocode.com/pricing
+plans:
+  - name: Solo
+    description: Single-user plan for freelancers and individual designers or developers
+      needing design inspection and handoff capabilities.
+    price: 19.00
+    unit: month
+    currency: USD
+    features:
+      - 1 User
+      - Unlimited Projects
+      - Full Inspect functionality (CSS, SVG, image assets, fonts, colors)
+      - File management and backup
+      - Publicly available sharing links
+      - Design file support (Sketch, Figma, Adobe XD, Photoshop, Illustrator)
+  - name: Team
+    description: Multi-user collaboration plan for design and development teams needing
+      shared projects, version control, and integrations.
+    price: 29.00
+    unit: user/month
+    currency: USD
+    features:
+      - Multi-user management
+      - Project collaboration
+      - Unlimited file versions
+      - Unlimited guest users
+      - Third-party integrations (Slack, cloud sync)
+      - Private sharing links
+      - Design file support (Sketch, Figma, Adobe XD, Photoshop, Illustrator)
+      - Real-time design versioning
+notes: Avocode was sunset on October 1, 2023 following acquisition by Ceros in October
+  2021. These plans are no longer available for purchase.

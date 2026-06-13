@@ -1,0 +1,73 @@
+aid: avocode
+name: Avocode
+description: Avocode was a design handoff platform with a REST API for managing projects,
+  design files, shared screens, annotations, and design spec exports for developer-designer
+  collaboration. Acquired by Ceros in October 2021 and sunset on October 1, 2023,
+  Avocode supported design files from Sketch, Figma, Adobe XD, Photoshop, and Illustrator,
+  enabling developers to inspect designs, extract CSS, SVG, image assets, fonts, and
+  colors without requiring access to the original design tools.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/avocode/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Design
+  - Design Handoff
+  - Developer Collaboration
+  - Inspect
+  - Design Files
+  - Sketch
+  - Figma
+  - Adobe XD
+  - CSS Export
+apis:
+  - aid: avocode:avocode-api
+    name: Avocode API
+    description: The Avocode REST API provided programmatic access to projects, design
+      files, shared screens, annotations, and design spec data, enabling integrations
+      with third-party tools and automation of design-to-code workflows. The platform
+      supported integrations with Slack and cloud file synchronization services.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://avocode.com/integrations
+    baseURL: https://avocode.com
+    tags:
+      - Design
+      - Design Handoff
+      - REST API
+      - Projects
+      - Screens
+      - Annotations
+    properties:
+      - type: Documentation
+        url: https://avocode.com/integrations
+      - type: X
+        url: https://x.com/avocode
+      - type: Blog
+        url: https://blog.avocode.com
+common:
+  - type: Website
+    url: https://avocode.com/
+  - type: Documentation
+    url: https://avocode.com/integrations
+  - type: GitHubOrg
+    url: https://github.com/avocode
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/avocode-inc-
+  - type: Blog
+    url: https://blog.avocode.com
+  - type: Pricing
+    url: https://avocode.com/pricing
+  - type: StatusPage
+    url: https://avocode.statuspage.io
+  - type: X
+    url: https://x.com/avocode
+  - type: Plans
+    url: plans/avocode-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/avocode-rate-limits.yml
+  - type: FinOps
+    url: finops/avocode-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

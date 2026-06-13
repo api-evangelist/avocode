@@ -1,0 +1,35 @@
+name: Avocode FinOps
+description: Financial operations guidance for Avocode API and platform usage. Avocode
+  operated a per-user SaaS pricing model before being sunset on October 1, 2023.
+  The following reflects cost management considerations from the platform's active
+  period.
+url: https://avocode.com/pricing
+considerations:
+  - name: Per-User Billing
+    description: The Team plan was billed at $29 per user per month, making user seat
+      management critical for cost control. Adding guest users was unlimited and did
+      not incur additional charges on the Team plan.
+    recommendation: Audit active user seats regularly and remove inactive team members
+      to control per-seat costs. Guest users could be leveraged for view-only access
+      without additional cost.
+  - name: Plan Selection
+    description: The Solo plan at $19/month was cost-effective for individual developers
+      or designers. Teams should compare the per-user Team plan against the Solo plan
+      to determine break-even points.
+    recommendation: For teams of one to two, compare Solo vs Team plans. The Solo plan
+      at $19/month versus Team at $29/user/month means Team becomes cost-effective
+      when collaboration features justify the premium.
+  - name: Annual vs Monthly Billing
+    description: Avocode historically offered discounts for annual billing commitments.
+      Annual plans reduced the effective monthly cost compared to month-to-month subscriptions.
+    recommendation: Commit to annual billing when the tool is integrated into production
+      workflows to reduce total cost of ownership.
+  - name: Integration Costs
+    description: Third-party integrations (Slack, cloud storage sync) were included
+      in the Team plan at no additional API cost. Custom integrations via the Avocode
+      REST API did not carry separate transaction or call-based fees.
+    recommendation: Factor in the value of included integrations when comparing Avocode
+      against competitors that charge for API access separately.
+status: Avocode was sunset on October 1, 2023 after acquisition by Ceros in October
+  2021. These FinOps considerations apply to historical usage only. Current Ceros
+  alternatives include Studio and MarkUp products.

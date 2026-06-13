@@ -1,0 +1,26 @@
+name: Avocode Rate Limits
+description: Avocode did not publicly document specific rate limits for its REST API.
+  The platform was sunset on October 1, 2023 following acquisition by Ceros in October
+  2021. The following represents general operational constraints known from the platform's
+  active period.
+url: https://avocode.com/integrations
+limits:
+  - name: API Authentication
+    description: The Avocode API used token-based authentication for third-party integrations.
+      Specific per-minute or per-hour request limits were not publicly documented.
+    type: authentication
+    notes: Token-based API access was required for all integration endpoints.
+  - name: File Size
+    description: Design file uploads were subject to size constraints depending on
+      the plan tier. Large Photoshop (PSD), Sketch, and Adobe XD files were supported
+      but subject to platform storage limits.
+    type: storage
+    notes: File management and backup was included in both Solo and Team plans.
+  - name: Project Limits
+    description: Both Solo and Team plans offered unlimited projects. Guest user access
+      was unlimited on the Team plan only.
+    type: quota
+    notes: Unlimited projects on all paid plans; unlimited guest users on Team plan only.
+notes: Avocode was sunset on October 1, 2023. Official rate limit documentation was
+  not publicly available prior to shutdown. The status page at https://avocode.statuspage.io
+  is no longer active.
