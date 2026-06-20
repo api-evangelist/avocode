@@ -6,7 +6,7 @@ description: Avocode was a design handoff platform with a REST API for managing 
   Avocode supported design files from Sketch, Figma, Adobe XD, Photoshop, and Illustrator,
   enabling developers to inspect designs, extract CSS, SVG, image assets, fonts, and
   colors without requiring access to the original design tools.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/avocode/refs/heads/main/apis.yml
 created: '2026-06-13'
 modified: '2026-06-13'
@@ -28,7 +28,7 @@ apis:
       files, shared screens, annotations, and design spec data, enabling integrations
       with third-party tools and automation of design-to-code workflows. The platform
       supported integrations with Slack and cloud file synchronization services.
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://avocode.com/integrations
     baseURL: https://avocode.com
     tags:
