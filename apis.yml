@@ -46,6 +46,8 @@ apis:
       - type: Blog
         url: https://blog.avocode.com
 common:
+  - type: DomainSecurity
+    url: security/avocode-domain-security.yml
   - type: Website
     url: https://avocode.com/
   - type: Documentation
