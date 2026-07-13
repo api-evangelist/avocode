@@ -2,12 +2,20 @@
   "repo": "avocode",
   "feeds": [
     {
-      "source": "https://blog.avocode.com",
-      "feed_url": "",
+      "source": "https://x.com/avocode",
+      "feed_url": "https://x.com/avocode",
+      "title": "",
       "saved": 0,
-      "error": "blog page unreachable / no response"
+      "method": "none"
+    },
+    {
+      "source": "https://www.linkedin.com/company/avocode-inc-",
+      "feed_url": "https://www.linkedin.com/company/avocode-inc-",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-27T12:26:39Z"
+  "fetched": "2026-07-11T11:50:51Z"
 }
