@@ -47,6 +47,13 @@ apis:
       - Design
       - Design Handoff
       - REST API
+      - Project
+      - Screens
+      - Annotations
+    tags_raw:
+      - Design
+      - Design Handoff
+      - REST API
       - Projects
       - Screens
       - Annotations
