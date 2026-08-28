@@ -6,6 +6,17 @@ description: Avocode was a design handoff platform with a REST API for managing 
   Avocode supported design files from Sketch, Figma, Adobe XD, Photoshop, and Illustrator,
   enabling developers to inspect designs, extract CSS, SVG, image assets, fonts, and
   colors without requiring access to the original design tools.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: paid
   onboarding: unknown
