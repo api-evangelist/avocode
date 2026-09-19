@@ -60,7 +60,7 @@ apis:
       - REST API
       - Project
       - Screens
-      - Annotations
+      - Annotation
     tags_raw:
       - Design
       - Design Handoff
