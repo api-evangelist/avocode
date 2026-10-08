@@ -38,3 +38,25 @@ plans:
       - Real-time design versioning
 notes: Avocode was sunset on October 1, 2023 following acquisition by Ceros in October
   2021. These plans are no longer available for purchase.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units:
+  - period
+  plans:
+  - name: Solo
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - period
+    periods: []
+  - name: Team
+    access: other
+    model: subscription
+    model_how: derived
+    units:
+    - other
+    periods: []
