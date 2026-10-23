@@ -43,3 +43,16 @@
     year: '2016'
   status: not-a-workflow
   arazzo: null
+- slug: avocode-adobe-creative-cloud-own
+  label: Adobe Creative Cloud (own)
+  partner: adobe-creative-cloud
+  partner_name: Adobe Creative Cloud (own)
+  category: Adobe Exchange Creative Cloud listing (Express)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://exchange.adobe.com/apps/cc/1f763b08/avocode-write
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
