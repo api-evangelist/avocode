@@ -1,4 +1,4 @@
-# Avocode (avocode)
+# Avocode
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,64 +66,109 @@
 
 Avocode was a design handoff platform with a REST API for managing projects, design files, shared screens, annotations, and design spec exports for developer-designer collaboration. Acquired by Ceros in October 2021 and sunset on October 1, 2023, Avocode supported design files from Sketch, Figma, Adobe XD, Photoshop, and Illustrator, enabling developers to inspect designs, extract CSS, SVG, image assets, fonts, and colors without requiring access to the original design tools.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/avocode/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/avocode/refs/heads/main/apis.yml)
+**Areas:** Design · Design Handoff · Developer Collaboration · Inspect · Design Files · Sketch · Figma · Adobe XD · CSS Export
 
-## Tags
+## Avocode on APIs.io
 
-- Design
-- Design Handoff
-- Developer Collaboration
-- Inspect
-- Design Files
-- Sketch
-- Figma
-- Adobe XD
-- CSS Export
+Everything profiled for Avocode is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/avocode/](https://apis.io/providers/avocode/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (1)
 
-- **Created:** 2026-06-13
-- **Modified:** 2026-06-13
+- [Avocode API](https://apis.io/apis/avocode/avocode-api/) — The Avocode REST API provided programmatic access to projects, design files, shared screens, annotations, and design spec data, enabling integrations with…
 
-## APIs
+### Published properties
 
-### Avocode API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-The Avocode REST API provided programmatic access to projects, design files, shared screens, annotations, and design spec data, enabling integrations with third-party tools and automation of design-to-code workflows. The platform supported integrations with Slack and cloud file synchronization services.
+#### JSON-LD (1)
 
-- **Human URL:** [https://avocode.com/integrations](https://avocode.com/integrations)
-- **Base URL:** `https://avocode.com`
+Linked-data contexts for the provider's vocabulary.
 
-#### Tags
+- [Avocode Context](https://apis.io/jsonld/avocode/avocode-context/)
 
-- Design
-- Design Handoff
-- REST API
-- Projects
-- Screens
-- Annotations
+#### Security (1)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Documentation](https://avocode.com/integrations)
-- [X (Twitter)](https://x.com/avocode)
-- [Blog](https://blog.avocode.com)
+- [Avocode Domain Security](https://apis.io/security/avocode/avocode-domain-security/)
 
-## Common Properties
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Avocode Plans Pricing](https://apis.io/plans/avocode/avocode-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Avocode Rate Limits](https://apis.io/rate-limits/avocode/avocode-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Avocode Finops](https://apis.io/finops/avocode/avocode-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://avocode.com/)
 - [Documentation](https://avocode.com/integrations)
-- [Git Hub Org](https://github.com/avocode)
-- [LinkedIn](https://www.linkedin.com/company/avocode-inc-)
-- [Blog](https://blog.avocode.com)
 - [Pricing](https://avocode.com/pricing)
-- [Status Page](https://avocode.statuspage.io)
-- [X (Twitter)](https://x.com/avocode)
-- [Plans](plans/avocode-plans-pricing.yml)
-- [Rate Limits](rate-limits/avocode-rate-limits.yml)
-- [Fin Ops](finops/avocode-finops.yml)
+- [Blog](https://avocode.com/blog/)
+- [Status](https://avocode.statuspage.io)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 11.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 6.7 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 1.2 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/avocode/](https://apis.io/providers/avocode/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Avocode: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/avocode/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
